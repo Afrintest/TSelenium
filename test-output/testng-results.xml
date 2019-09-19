@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[ActiTime page is opened]]>
+    </line>
+    <line>
+      <![CDATA[close browser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31352" started-at="2019-09-17T15:39:50Z" finished-at="2019-09-17T15:40:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31352" started-at="2019-09-17T15:39:50Z" finished-at="2019-09-17T15:40:21Z">
+      <class name="testng.actitime.ActiTimeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testng.actitime.ActiTimeTest@533377b]" name="beforeClass" is-config="true" duration-ms="2574" started-at="2019-09-17T15:39:50Z" finished-at="2019-09-17T15:39:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ActiTime page is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="liscenseHeader()[pri:0, instance:testng.actitime.ActiTimeTest@533377b]" name="liscenseHeader" duration-ms="9008" started-at="2019-09-17T15:39:52Z" finished-at="2019-09-17T15:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liscenseHeader -->
+        <test-method status="PASS" signature="captureError()[pri:1, instance:testng.actitime.ActiTimeTest@533377b]" name="captureError" duration-ms="2902" started-at="2019-09-17T15:40:01Z" finished-at="2019-09-17T15:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureError -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:2, instance:testng.actitime.ActiTimeTest@533377b]" name="validateLogin" duration-ms="3473" started-at="2019-09-17T15:40:08Z" data-provider="getInputData" finished-at="2019-09-17T15:40:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:2, instance:testng.actitime.ActiTimeTest@533377b]" name="validateLogin" duration-ms="2499" started-at="2019-09-17T15:40:12Z" data-provider="getInputData" finished-at="2019-09-17T15:40:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lead]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="validateLogin(java.lang.String, java.lang.String)[pri:2, instance:testng.actitime.ActiTimeTest@533377b]" name="validateLogin" duration-ms="6109" started-at="2019-09-17T15:40:14Z" data-provider="getInputData" finished-at="2019-09-17T15:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testng.actitime.ActiTimeTest@533377b]" name="afterClass" is-config="true" duration-ms="875" started-at="2019-09-17T15:40:20Z" finished-at="2019-09-17T15:40:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[close browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testng.actitime.ActiTimeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
